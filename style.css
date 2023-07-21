@@ -1,0 +1,78 @@
+html,
+body {
+    font-family: sans-serif;
+    background-color: #dcfce7;
+    width: 100%;
+}
+
+header {
+    background-color: #86efac;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+
+}
+
+.containerDificutl {
+    margin-bottom: 15px;
+}
+
+.container-select {
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 15px 25px;
+}
+
+button {
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 15px 25px;
+
+}
+
+main {
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.casilleros {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #86efac;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
